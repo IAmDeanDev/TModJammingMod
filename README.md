@@ -1,25 +1,16 @@
-# TModJammingMod
-A Terraria mod created for a Modding Jam - 2 contributors: IAmDeanDev & WhosFia
+# ***TModJammingMod***
+A **Terraria** mod created for a [**Modding Jam**](https://discord.gg/S5rNskdvVh) - 2 contributors: **IAmDeanDev** & **WhosFia**
 <br> Utility code may be used
-<br> Using: Visual Studio Code
+<br> Using: **Visual Studio Code**
 
 
-# Jam Theme:
+# **Jam Theme:**
 Uncertain
 
 
-
-# Todo:
+# **Todo:**
 Uncertain
-<br> Uncertain
-<br> Uncertain
-<br> Uncertain
-<br> Uncertain
 
 
-# In progress:
+# **In progress:**
 Uncertain
-<br> Uncertain
-<br> Uncertain
-<br> Uncertain
-<br> Uncertain
