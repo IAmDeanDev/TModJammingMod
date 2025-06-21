@@ -42,5 +42,12 @@ namespace TracerWizard.Content.Items.Weapons.PreHardmode.SpiritClass
             Item.noUseGraphic = true;
 
         }
+
+        public override bool CanShoot(Player player)
+        {
+            if (player.HeldItem.shoot == ModContent.ProjectileType<InvisibleProjectile>() && player.ownedProjectileCounts[Item.shoot] > 1)
+                return false;
+            return true;
+        }
     }
 }
