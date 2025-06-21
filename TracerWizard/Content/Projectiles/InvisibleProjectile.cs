@@ -33,7 +33,7 @@ namespace TracerWizard.Content.Projectiles
         {
             Player player = Main.player[Projectile.owner];
 
-            if (player.ownedProjectileCounts[ModContent.ProjectileType<InvisibleProjectile>()] > 0)
+            if (player.ownedProjectileCounts[ModContent.ProjectileType<InvisibleProjectile>()] > 1)
             {
                 Projectile.Kill();
                 return;
