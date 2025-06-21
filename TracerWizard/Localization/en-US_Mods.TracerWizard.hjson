@@ -1,0 +1,13 @@
+DamageClasses: {
+	Spirit.DisplayName: Spirit
+	SpiritClass.DisplayName: Spirit Class
+}
+
+Items: {
+	SpiritTestWeapon: {
+		DisplayName: Spirit Test Weapon
+		Tooltip: ""
+	}
+}
+
+Projectiles.InvisibleProjectile.DisplayName: Invisible Projectile
