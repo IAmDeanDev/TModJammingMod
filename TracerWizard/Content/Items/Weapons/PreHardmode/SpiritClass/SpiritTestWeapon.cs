@@ -40,6 +40,7 @@ namespace TracerWizard.Content.Items.Weapons.PreHardmode.SpiritClass
             Item.rare = ItemRarityID.Purple;
 
             Item.noUseGraphic = true;
+            Item.noMelee = true;
 
         }
 
