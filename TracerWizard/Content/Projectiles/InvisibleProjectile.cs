@@ -1,4 +1,5 @@
 using Terraria;
+using Terraria.DataStructures;
 using Terraria.ID;
 using Terraria.ModLoader;
 using TracerWizard.Content.DamageClasses;
@@ -33,7 +34,7 @@ namespace TracerWizard.Content.Projectiles
         {
             Player player = Main.player[Projectile.owner];
 
-            if (player.ownedProjectileCounts[ModContent.ProjectileType<InvisibleProjectile>()] > 1)
+            if (player.ownedProjectileCounts[ModContent.ProjectileType<InvisibleProjectile>()] > 0)
             {
                 Projectile.Kill();
                 return;
